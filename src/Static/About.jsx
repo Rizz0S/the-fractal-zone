@@ -7,13 +7,13 @@ const About = () => {
       <h4>What are Fractals?</h4>
       <p className="about-paragraph">
       I'm glad you asked! Fractals are complex geometric patterns that are defined by self-similarity. In other words, their inner components resemble the whole shape. Due to their recursive nature, they can, essentially, continue indefinitely when magnified. This scaling symmetry lends particularly well to computer generated graphics - which is what we're doing here!
-      There are many purely geometric examples of fractals - a few famous ones are the <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle" target="_blank">Sierpinski Triangle</a>, <a href="https://en.wikipedia.org/wiki/Koch_snowflake" target="_blank">Koch Snowflake</a>, and <a href="https://en.wikipedia.org/wiki/Dragon_curve" target="_blank">Dragon Curve</a>.
+      There are many purely geometric examples of fractals - a few famous ones are the <a href="https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle" target="_blank" rel="noopener noreferrer">Sierpinski Triangle</a>, <a href="https://en.wikipedia.org/wiki/Koch_snowflake" target="_blank" rel="noopener noreferrer">Koch Snowflake</a>, and <a href="https://en.wikipedia.org/wiki/Dragon_curve" target="_blank" rel="noopener noreferrer">Dragon Curve</a>.
       However, although they <i>technically</i> cannot be infinite, fractals also appear in nature. Think of a lightning bolt, a leaf vein, a coastline from above, or a branching tree - see how they resemble a fractal pattern?
       Such similarities have not gone unnoticed. In fact, it is a perfect segway into our next topic.</p>
 
       <h4>Our Drawing Instructions: L-Systems</h4>
       <p className="about-paragraph">
-      Fractals can be drawn a few different ways, most of which involve recursion. However, we are using the specific method of the Lindenmayer System - or <a href="https://en.wikipedia.org/wiki/L-system" target="_blank">L-System</a>.
+      Fractals can be drawn a few different ways, most of which involve recursion. However, we are using the specific method of the Lindenmayer System - or <a href="https://en.wikipedia.org/wiki/L-system" target="_blank" rel="noopener noreferrer">L-System</a>.
 
       What is an L-System? Another fantastic question! First and foremost, it's a language system that operates with a specific grammar. It consists of an "alphabet" that is used to write "production rules" that are used to generatively calculate a string of instructions, with a base case that the production rules are initially operated on (the axiom). 
       In the late 1960s, a botanist named Astrid Lindenmayer used L-Systems to describe plant cells, growth processes, and plant development. They are generally fairly simple, compared to what they produce, which is why they are so attractive for the kind of fractal generation we're doing here. Here is what they look like at a basic level:
@@ -66,10 +66,10 @@ const About = () => {
         the drawing on the canvas (we want you to be able to see your lovely fractal creations!). The drawing point is currently fixed, but we hope to make it more dynamic in the future to be able to handle many types of fractals.</p>
 
       <h4>What was this site built with?</h4>
-      <p>For the front end, we're using JavaScript with the React framework and the library of <a href="https://p5js.org/" target="_blank">P5.js</a> for graphics processing. For the back end, we're using Rails as an API. </p>
+      <p>For the front end, we're using JavaScript with the React framework and the library of <a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">P5.js</a> for graphics processing. For the back end, we're using Rails as an API. </p>
 
       <h5>Special Thanks</h5>
-      <p className="about-paragraph"> Endless thanks to <a href="https://thecodingtrain.com/" target="_blank">Dan Shiffman</a>, for his enthusiasm for graphics processing. He is the reason we were able to implement this in such a short time span 
+      <p className="about-paragraph"> Endless thanks to <a href="https://thecodingtrain.com/" target="_blank" rel="noopener noreferrer">Dan Shiffman</a>, for his enthusiasm for graphics processing. He is the reason we were able to implement this in such a short time span 
         (less than 5 days!). Without him, this application would not as shiny as it is. If you are interested, please look into his work - you will not be disappointed!
        </p> 
        
